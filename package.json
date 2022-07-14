@@ -1,0 +1,15 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": " server.js",
+  "scripts": {
+    "start": "node Backend/server"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.17.3"
+  }
+}
