@@ -8,7 +8,9 @@
     "start": "node Backend/server",
     "server": "nodemon Backend/server",
     "client": "npm start --prefix my-app",
-    "dev": "concurrently \"npm run server\" \"npm run client\""
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "data:import": "node Backend/seeder",
+    "data:destroy": "node Backend/seeder -d"
   },
   "author": "",
   "license": "MIT",
@@ -19,6 +21,7 @@
     "concurrently": "^7.2.2",
     "dotenv": "^16.0.1",
     "express": "^4.17.3",
+    "express-async-handler": "^1.2.0",
     "mongoose": "^6.4.5",
     "nodemon": "^2.0.19"
   }
